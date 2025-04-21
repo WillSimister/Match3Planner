@@ -11,14 +11,14 @@
     (:init
         ; Initial tile types
         (pos-has-type a1 G)
-        (pos-has-type a2 H)
+        (pos-has-type a2 G)
         (pos-has-type a3 G)
         (pos-has-type b1 H)
         (pos-has-type b2 H)
         (pos-has-type b3 H)
         (pos-has-type c1 R)
         (pos-has-type c2 R)
-        (pos-has-type c3 G)
+        (pos-has-type c3 R)
 
         ; Horizontal adjacencies
         (adjacent a1 a2) (adjacent a2 a3)
